@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NF1/EJ1/EJ1.iml" filepath="$PROJECT_DIR$/NF1/EJ1/EJ1.iml" />
       <module fileurl="file://$PROJECT_DIR$/NF1/EJ2/EJ2.iml" filepath="$PROJECT_DIR$/NF1/EJ2/EJ2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ3/EJ3.iml" filepath="$PROJECT_DIR$/NF1/EJ3/EJ3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ4/EJ4.iml" filepath="$PROJECT_DIR$/NF1/EJ4/EJ4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ5/EJ5.iml" filepath="$PROJECT_DIR$/NF1/EJ5/EJ5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ6/EJ6.iml" filepath="$PROJECT_DIR$/NF1/EJ6/EJ6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/iFP_DAM_Acceso_Datos.iml" filepath="$PROJECT_DIR$/.idea/iFP_DAM_Acceso_Datos.iml" />
     </modules>
   </component>

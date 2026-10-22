@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ1/EJ1.iml" filepath="$PROJECT_DIR$/NF1/EJ1/EJ1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NF1/EJ2/EJ2.iml" filepath="$PROJECT_DIR$/NF1/EJ2/EJ2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/iFP_DAM_Acceso_Datos.iml" filepath="$PROJECT_DIR$/.idea/iFP_DAM_Acceso_Datos.iml" />
     </modules>
   </component>

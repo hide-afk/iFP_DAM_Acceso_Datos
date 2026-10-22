@@ -1,9 +1,9 @@
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         // Instanciamos 3 objetos de la clase Persona
-        Persona marc = new Persona("Marc", "Abad Platas", "Barcelona", "Española", 19);
-        Persona jordi = new Persona("Jordi", "Morata Reyes", "Barcelona", "Española", 36);
-        Persona shuqi = new Persona("Shu Qi", "Dong", "Barcelona", "China", 20);
+        Persona marc = new Persona("Marc", "Abad Platas", "Española", "Barcelona", 19);
+        Persona jordi = new Persona("Jordi", "Morata Reyes", "Española", "Barcelona", 36);
+        Persona shuqi = new Persona("Shu Qi", "Dong", "China", "Barcelona", 20);
 
         // Creamos un array que contengan las 3 personas instanciadas
         Persona[] arrayPersonas = {marc, jordi, shuqi};

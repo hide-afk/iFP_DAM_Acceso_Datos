@@ -63,17 +63,20 @@ public class ej4 {
         } while (personas < 1 || personas > 3);
 
         try {
+            // Instanciamos el archivo binario del cual vamos a leer los streams en base a la ruta especificada
             ObjectOutputStream binario = new ObjectOutputStream(new FileOutputStream(ruta.toFile()));
             for (int i = 0; i < personas; i++) {
-                Persona persona = new Persona();
+                Persona2 persona = new Persona2(); // Creamos un nuevo objeto por cada iterada
 
                 System.out.println("- Persona nº" + (i + 1) + " -");
+                // Recogemos los datos de la persona y los asignamos al objeto instanciado
                 persona.setNombre(pedirString("Nombre: "));
                 persona.setApellido(pedirString("Apellidos: "));
                 persona.setCiudad(pedirString("Ciudad: "));
                 persona.setNacionalidad(pedirString("Nacionalidad: "));
                 persona.setEdad(pedirEntero("Edad: "));
 
+                // Se escribe el objeto en binario
                 binario.writeObject(persona);
             }
             binario.close();
@@ -169,7 +172,7 @@ public class ej4 {
             }
         }
 
-        Persona persona = new Persona();
+        Persona2 persona = new Persona2();
 
         try {
             // Definimos el archivo al que escribir, con la decision del usuario para sobreescribir (append) o no

@@ -124,8 +124,10 @@ public class ej5 {
         } while (personas < 1 || personas > 3);
 
         try {
+            // Instanciamos el archivo binario del cual vamos a leer los streams en base a la ruta especificada
             ObjectOutputStream binario = new ObjectOutputStream(new FileOutputStream(ruta.toFile()));
             for (int i = 0; i < personas; i++) {
+                // Preparamos el objeto persona para almacenar sus datos
                 Persona persona = new Persona();
 
                 System.out.println("- Persona nº" + (i + 1) + " -");
